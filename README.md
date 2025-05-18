@@ -41,35 +41,31 @@
 ## 🗂️ Project Structure
 
 ```plaintext
-DataPulse/
+datapulse/
 │
-dataops-platform/
+├── ingestion/                   # Data fetching logic
+│   └── fetch_data.py            # Script to fetch data from sources (e.g., APIs, files)
 │
-├── ingestion/
-│   └── fetch_data.py
+├── processing/                  # Data cleaning and processing
+│   └── clean_data.py            # Script to clean and preprocess data
 │
-├── processing/
-│   └── clean_data.py
+├── storage/                     # Data storage module
+│   └── save_to_db.py            # Save cleaned data to database or file system
 │
-├── storage/
-│   └── save_to_db.py
+├── dashboard/                   # Interactive data visualization UI
+│   └── app.py                   # Streamlit or Dash app for visualization
 │
-├── dashboard/
-│   └── app.py  # Streamlit or Dash
+├── tests/                       # Unit and integration tests
+│   ├── test_fetch.py            # Test for ingestion logic
+│   └── test_clean.py            # Test for data cleaning functions
 │
-├── alerts/
-│   └── trigger_alerts.py
+├── .github/                     # GitHub-specific configuration
+│   └── workflows/
+│       └── ci-cd.yml            # GitHub Actions workflow for CI/CD
 │
-├── tests/
-│   ├── test_fetch.py
-│   ├── test_clean.py
-│
-├── .github/workflows/
-│   └── ci-cd.yml
-│
-├── requirements.txt
-├── README.md
-└── config.yaml / .env
+├── config.yaml / .env           # Configuration or environment variables
+├── requirements.txt             # Project dependencies
+└── README.md                    # Project documentation
 
 
 ```
