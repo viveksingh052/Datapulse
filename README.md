@@ -1,4 +1,4 @@
-# 🚀 DataPulse ## Automated DataOps Platform for Real-Time Data Monitoring
+# 🚀 DataPulse Automated DataOps Platform for Real-Time Data Monitoring
 
 
 
@@ -8,6 +8,10 @@
 **DataPulse** is a robust and automated DataOps platform designed to enable **real-time monitoring**, **data validation**, and **alerting** of data pipelines with minimal manual effort. This end-to-end system fetches data, cleans and validates it, transforms for insights, and visualizes metrics—all while ensuring data quality through continuous integration and deployment (CI/CD).
 
 ---
+
+
+
+
 
 ## 🔥 Key Features
 
@@ -23,6 +27,10 @@
 
 ---
 
+
+
+
+
 ## 🛠️ Technologies Used
 
 | Technology       | Purpose                                    | Icon       |
@@ -36,6 +44,11 @@
 | Docker (Optional)| Containerization for deployment             | 🐳         |
 
 ---
+
+
+
+
+
 
 ## 🗂️ Project Structure
 
@@ -83,12 +96,12 @@ datapulse/
 
 ## Clone the repository
 
-git clone https://github.com/viveksingh052/Datapulse.git
+- git clone https://github.com/viveksingh052/Datapulse.git
 
 cd Datapulse
 
 ## Create and activate virtual environment
-python -m venv env
+- python -m venv env
 
 ## On Linux/macOS
 - source env/bin/activate
@@ -113,38 +126,38 @@ Open your browser and navigate to http://localhost:8501 to view the live dashboa
 
 
 # 📈 Usage
-The pipeline automatically fetches, cleans, and processes your data on schedule or on-demand.
+-The pipeline automatically fetches, cleans, and processes your data on schedule or on-demand.
 
-The Streamlit dashboard provides interactive data visualizations and summaries.
+- The Streamlit dashboard provides interactive data visualizations and summaries.
 
-If any data anomalies or pipeline failures occur, automated alert emails are sent to notify stakeholders.
+- If any data anomalies or pipeline failures occur, automated alert emails are sent to notify stakeholders.
 
 
 
 # 🧪 CI/CD with GitHub Actions
-This project leverages GitHub Actions for:
+- This project leverages GitHub Actions for:
 
-Automated testing and linting on each commit or pull request.
+- Automated testing and linting on each commit or pull request.
 
-Seamless deployment of updated pipelines and dashboards.
+- Seamless deployment of updated pipelines and dashboards.
 
-Monitoring pipeline health and triggering alerts as needed.
+- Monitoring pipeline health and triggering alerts as needed.
 
-Workflow configurations are located under .github/workflows/.
+- Workflow configurations are located under .github/workflows/.
 
 
 # 🤝 Contribution
-Contributions, issues, and feature requests are welcome!
+- Contributions, issues, and feature requests are welcome!
 
-Fork the repository
+- Fork the repository
 
-Create your feature branch (git checkout -b feature-name)
+- Create your feature branch (git checkout -b feature-name)
 
-Commit your changes (git commit -m 'Add feature')
+- Commit your changes (git commit -m 'Add feature')
 
-Push to the branch (git push origin feature-name)
+- Push to the branch (git push origin feature-name)
 
-Open a Pull Request
+- Open a Pull Request
 
 # 📞 Contact
 Created by Vivek Singh
