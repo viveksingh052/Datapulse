@@ -1,5 +1,4 @@
-# 🚀 DataPulse 
-## Automated DataOps Platform for Real-Time Data Monitoring
+# 🚀 DataPulse ## Automated DataOps Platform for Real-Time Data Monitoring
 
 
 
@@ -41,6 +40,7 @@
 ## 🗂️ Project Structure
 
 ```plaintext
+```plaintext
 datapulse/
 │
 ├── ingestion/                   # Data fetching logic
@@ -55,8 +55,10 @@ datapulse/
 ├── dashboard/                   # Interactive data visualization UI
 │   └── app.py                   # Streamlit or Dash app for visualization
 │
-├── tests/                       # Unit and integration tests
-│   ├── test_fetch.py            # Test for ingestion logic
+├── test/                        # Additional or legacy tests
+│   └── test_fetch.py            # Sample test script
+│
+├── tests/                       # Primary unit and integration tests
 │   └── test_clean.py            # Test for data cleaning functions
 │
 ├── .github/                     # GitHub-specific configuration
