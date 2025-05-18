@@ -1,7 +1,8 @@
 # 🚀 DataPulse 
 ## Automated DataOps Platform for Real-Time Data Monitoring
 
----
+
+
 
 ## 📖 Project Overview
 
@@ -14,7 +15,7 @@
 | Feature                  | Description                                                                                 | Icon           |
 |--------------------------|---------------------------------------------------------------------------------------------|----------------|
 | Automated Data Collection | Periodic fetching of data from APIs or batch files                                         | 📥             |
-| Data Cleaning & Validation| Custom validation rules to detect anomalies and maintain data integrity                     | 🧹             |
+| Data Cleaning & Validation| Custom validation rules to detect anomalies and maintain data integrity                     | 🧹            |
 | Data Transformation       | Convert raw data into actionable metrics and KPIs                                          | 🔄             |
 | Interactive Dashboard     | Real-time, user-friendly data visualization built using Streamlit                          | 📊             |
 | Automated Alerting        | Email notifications on pipeline errors or data anomalies                                   | 📧             |
