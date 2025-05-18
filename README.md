@@ -51,15 +51,20 @@ DataPulse/
 ├── run_pipeline.py     # Orchestrates the full pipeline execution
 └── README.md           # Project documentation
 
-🚀 Getting Started
-Prerequisites
-Python 3.8 or higher
 
-Git
+---
 
-(Optional) Docker for containerized setup
+## 🚀 Getting Started
 
-Installation
+### Prerequisites
+
+- Python 3.8 or higher  
+- Git  
+- (Optional) Docker for containerized setup  
+
+### Installation
+
+```bash
 # Clone the repository
 git clone https://github.com/viveksingh052/Datapulse.git
 cd Datapulse
@@ -77,18 +82,15 @@ env\Scripts\activate
 pip install -r requirements.txt
 
 
-Running the Project
-Run the Data Pipeline
+## ▶️ Running the Project
 
-bash
+### Run the Data Pipeline
+
+```bash
 python run_pipeline.py
-
-
-Start the Dashboard
-
-bash
 streamlit run dashboard/app.py
 Open your browser and navigate to http://localhost:8501 to view the live dashboard.
+
 
 📈 Usage
 The pipeline automatically fetches, cleans, and processes your data on schedule or on-demand.
@@ -96,6 +98,8 @@ The pipeline automatically fetches, cleans, and processes your data on schedule 
 The Streamlit dashboard provides interactive data visualizations and summaries.
 
 If any data anomalies or pipeline failures occur, automated alert emails are sent to notify stakeholders.
+
+
 
 🧪 CI/CD with GitHub Actions
 This project leverages GitHub Actions for:
@@ -121,7 +125,6 @@ Commit your changes (git commit -m 'Add feature')
 Push to the branch (git push origin feature-name)
 
 Open a Pull Request
-
 
 📞 Contact
 Created by Vivek Singh
