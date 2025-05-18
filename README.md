@@ -43,15 +43,34 @@
 ```plaintext
 DataPulse/
 │
-├── data/               # Raw and processed datasets (CSV, JSON, etc.)
-├── dashboard/          # Streamlit dashboard source code
-│   └── app.py          # Main dashboard app
-├── pipeline/           # Data ingestion, cleaning, and transformation scripts
-├── tests/              # Unit and integration tests
-├── .github/            # GitHub Actions workflows for CI/CD
-├── requirements.txt    # Python dependencies list
-├── run_pipeline.py     # Orchestrates the full pipeline execution
-└── README.md           # Project documentation
+dataops-platform/
+│
+├── ingestion/
+│   └── fetch_data.py
+│
+├── processing/
+│   └── clean_data.py
+│
+├── storage/
+│   └── save_to_db.py
+│
+├── dashboard/
+│   └── app.py  # Streamlit or Dash
+│
+├── alerts/
+│   └── trigger_alerts.py
+│
+├── tests/
+│   ├── test_fetch.py
+│   ├── test_clean.py
+│
+├── .github/workflows/
+│   └── ci-cd.yml
+│
+├── requirements.txt
+├── README.md
+└── config.yaml / .env
+
 
 ```
 
@@ -74,23 +93,24 @@ cd Datapulse
 python -m venv env
 
 ## On Linux/macOS
-source env/bin/activate
+- source env/bin/activate
 
 ## On Windows
-env\Scripts\activate
+- env\Scripts\activate
 
 ## Install dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 
 # ▶️ Running the Project
 
 ### Run the Data Pipeline
-python run_pipeline.py
+- python run_pipeline.py
 
 
 ### Start the dashboard
-streamlit run dashboard/app.py
+- streamlit run dashboard/app.py
+
 Open your browser and navigate to http://localhost:8501 to view the live dashboard.
 
 
