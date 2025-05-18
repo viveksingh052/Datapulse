@@ -1,4 +1,4 @@
-# 🚀 DataPulse Automated DataOps Platform for Real-Time Data Monitoring
+# 🚀 DataPulse: Automated DataOps Platform for Real-Time Data Monitoring
 
 
 
@@ -161,7 +161,11 @@ Open your browser and navigate to http://localhost:8501 to view the live dashboa
 
 # 📞 Contact
 Created by Vivek Singh
+
 Email: vivekvs2927@gmail.com
+
+
 GitHub: github.com/viveksingh052
+
 
 ## ✨ Thank you for checking out DataPulse! Feel free to star ⭐ the repo if you find it helpful.
