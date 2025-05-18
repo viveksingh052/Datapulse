@@ -1,4 +1,4 @@
-# 🚀 DataPulse: Automated DataOps Platform for Real-Time Data Monitoring
+# 🚀 DataPulse : Automated DataOps Platform for Real-Time Data Monitoring
 
 
 
