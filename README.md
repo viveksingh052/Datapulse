@@ -113,6 +113,9 @@ cd Datapulse
 - pip install -r requirements.txt
 
 
+---
+
+
 # ▶️ Running the Project
 
 ### Run the Data Pipeline
@@ -132,6 +135,7 @@ Open your browser and navigate to http://localhost:8501 to view the live dashboa
 
 - If any data anomalies or pipeline failures occur, automated alert emails are sent to notify stakeholders.
 
+---
 
 
 # 🧪 CI/CD with GitHub Actions
@@ -146,6 +150,8 @@ Open your browser and navigate to http://localhost:8501 to view the live dashboa
 - Workflow configurations are located under .github/workflows/.
 
 
+---
+
 # 🤝 Contribution
 - Contributions, issues, and feature requests are welcome!
 
@@ -158,6 +164,8 @@ Open your browser and navigate to http://localhost:8501 to view the live dashboa
 - Push to the branch (git push origin feature-name)
 
 - Open a Pull Request
+
+---
 
 # 📞 Contact
 Created by Vivek Singh
