@@ -64,7 +64,9 @@ DataPulse/
 ### Installation
 
 ## Clone the repository
+
 git clone https://github.com/viveksingh052/Datapulse.git
+
 cd Datapulse
 
 ## Create and activate virtual environment
@@ -84,6 +86,7 @@ pip install -r requirements.txt
 
 ### Run the Data Pipeline
 python run_pipeline.py
+
 
 ### Start the dashboard
 streamlit run dashboard/app.py
@@ -129,4 +132,4 @@ Created by Vivek Singh
 Email: vivekvs2927@gmail.com
 GitHub: github.com/viveksingh052
 
-# ✨ Thank you for checking out DataPulse! Feel free to star ⭐ the repo if you find it helpful.
+## ✨ Thank you for checking out DataPulse! Feel free to star ⭐ the repo if you find it helpful.
