@@ -1,6 +1,6 @@
 # run_pipeline.py
 from ingestion.fetch_data import fetch_covid_data
-from preprocessing.clean_data import clean_data
+from processing.clean_data import clean_data
 from storage.save_to_csv import save_to_csv
 
 def run():

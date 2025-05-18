@@ -1,0 +1,17 @@
+README.md
+setup.py
+dashboard/__init__.py
+dashboard/app.py
+datapulse.egg-info/PKG-INFO
+datapulse.egg-info/SOURCES.txt
+datapulse.egg-info/dependency_links.txt
+datapulse.egg-info/top_level.txt
+ingestion/__init__.py
+ingestion/fetch_data.py
+processing/__init__.py
+processing/clean_data.py
+storage/__init__.py
+storage/save_to_csv.py
+tests/__init__.py
+tests/test_clean.py
+tests/test_fetch.py
