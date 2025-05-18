@@ -63,7 +63,7 @@ datapulse/
 │   └── clean_data.py            # Script to clean and preprocess data
 │
 ├── storage/                     # Data storage module
-│   └── save_to_db.py            # Save cleaned data to database or file system
+│   └── save_to_csv.py            # Save cleaned data to database or file system
 │
 ├── dashboard/                   # Interactive data visualization UI
 │   └── app.py                   # Streamlit or Dash app for visualization
