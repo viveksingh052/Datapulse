@@ -50,3 +50,82 @@ DataPulse/
 ├── requirements.txt    # Python dependencies list
 ├── run_pipeline.py     # Orchestrates the full pipeline execution
 └── README.md           # Project documentation
+
+🚀 Getting Started
+Prerequisites
+Python 3.8 or higher
+
+Git
+
+(Optional) Docker for containerized setup
+
+Installation
+# Clone the repository
+git clone https://github.com/viveksingh052/Datapulse.git
+cd Datapulse
+
+# Create and activate virtual environment
+python -m venv env
+
+# On Linux/macOS
+source env/bin/activate
+
+# On Windows
+env\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+
+Running the Project
+Run the Data Pipeline
+
+bash
+python run_pipeline.py
+
+
+Start the Dashboard
+
+bash
+streamlit run dashboard/app.py
+Open your browser and navigate to http://localhost:8501 to view the live dashboard.
+
+📈 Usage
+The pipeline automatically fetches, cleans, and processes your data on schedule or on-demand.
+
+The Streamlit dashboard provides interactive data visualizations and summaries.
+
+If any data anomalies or pipeline failures occur, automated alert emails are sent to notify stakeholders.
+
+🧪 CI/CD with GitHub Actions
+This project leverages GitHub Actions for:
+
+Automated testing and linting on each commit or pull request.
+
+Seamless deployment of updated pipelines and dashboards.
+
+Monitoring pipeline health and triggering alerts as needed.
+
+Workflow configurations are located under .github/workflows/.
+
+
+🤝 Contribution
+Contributions, issues, and feature requests are welcome!
+
+Fork the repository
+
+Create your feature branch (git checkout -b feature-name)
+
+Commit your changes (git commit -m 'Add feature')
+
+Push to the branch (git push origin feature-name)
+
+Open a Pull Request
+
+
+📞 Contact
+Created by Vivek Singh
+Email: vivekvs2927@gmail.com
+GitHub: github.com/viveksingh052
+
+✨ Thank you for checking out DataPulse! Feel free to star ⭐ the repo if you find it helpful.
