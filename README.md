@@ -52,8 +52,7 @@ DataPulse/
 ├── run_pipeline.py     # Orchestrates the full pipeline execution
 └── README.md           # Project documentation
 
-
----
+```
 
 # 🚀 Getting Started
 
@@ -61,34 +60,32 @@ DataPulse/
 
 - Python 3.8 or higher  
 - Git  
-- (Optional) Docker for containerized setup  
 
 ### Installation
 
-```bash
-# Clone the repository
+## Clone the repository
 git clone https://github.com/viveksingh052/Datapulse.git
 cd Datapulse
 
-# Create and activate virtual environment
+## Create and activate virtual environment
 python -m venv env
 
-# On Linux/macOS
+## On Linux/macOS
 source env/bin/activate
 
-# On Windows
+## On Windows
 env\Scripts\activate
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
 
 # ▶️ Running the Project
 
 ### Run the Data Pipeline
-
-```bash
 python run_pipeline.py
+
+### Start the dashboard
 streamlit run dashboard/app.py
 Open your browser and navigate to http://localhost:8501 to view the live dashboard.
 
@@ -127,9 +124,9 @@ Push to the branch (git push origin feature-name)
 
 Open a Pull Request
 
-📞 Contact
+# 📞 Contact
 Created by Vivek Singh
 Email: vivekvs2927@gmail.com
 GitHub: github.com/viveksingh052
 
-✨ Thank you for checking out DataPulse! Feel free to star ⭐ the repo if you find it helpful.
+# ✨ Thank you for checking out DataPulse! Feel free to star ⭐ the repo if you find it helpful.
