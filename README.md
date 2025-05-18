@@ -1,4 +1,5 @@
-# 🚀 DataPulse — Automated DataOps Platform for Real-Time Data Monitoring
+# 🚀 DataPulse 
+## Automated DataOps Platform for Real-Time Data Monitoring
 
 ---
 
@@ -54,7 +55,7 @@ DataPulse/
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
 ### Prerequisites
 
@@ -82,7 +83,7 @@ env\Scripts\activate
 pip install -r requirements.txt
 
 
-## ▶️ Running the Project
+# ▶️ Running the Project
 
 ### Run the Data Pipeline
 
@@ -92,7 +93,7 @@ streamlit run dashboard/app.py
 Open your browser and navigate to http://localhost:8501 to view the live dashboard.
 
 
-📈 Usage
+# 📈 Usage
 The pipeline automatically fetches, cleans, and processes your data on schedule or on-demand.
 
 The Streamlit dashboard provides interactive data visualizations and summaries.
@@ -101,7 +102,7 @@ If any data anomalies or pipeline failures occur, automated alert emails are sen
 
 
 
-🧪 CI/CD with GitHub Actions
+# 🧪 CI/CD with GitHub Actions
 This project leverages GitHub Actions for:
 
 Automated testing and linting on each commit or pull request.
@@ -113,7 +114,7 @@ Monitoring pipeline health and triggering alerts as needed.
 Workflow configurations are located under .github/workflows/.
 
 
-🤝 Contribution
+# 🤝 Contribution
 Contributions, issues, and feature requests are welcome!
 
 Fork the repository
