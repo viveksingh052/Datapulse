@@ -128,8 +128,9 @@ cd Datapulse
 Open your browser and navigate to http://localhost:8501 to view the live dashboard.
 
 
+https://github.com/user-attachments/assets/e921d3b0-901b-48cb-8e8c-595d68cca2a2
 
-Uploading DataPulse - Visual Studio Code 2025-05-19 12-41-19 main (online-video-cutter.com).mp4…
+
 
 
 
