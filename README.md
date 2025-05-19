@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/42b79cb4-2bed-4107-8ea7-125184ca0a0d
 # 🚀 DataPulse : Automated DataOps Platform for Real-Time Data Monitoring
 
 
@@ -130,6 +128,14 @@ cd Datapulse
 Open your browser and navigate to http://localhost:8501 to view the live dashboard.
 
 
+
+https://github.com/user-attachments/assets/42b79cb4-2bed-4107-8ea7-125184ca0a0d
+
+
+
+https://github.com/user-attachments/assets/972af7ac-ec1c-4108-bfc4-3d71ddad7b0f
+
+
 # 📈 Usage
 -The pipeline automatically fetches, cleans, and processes your data on schedule or on-demand.
 
@@ -182,7 +188,6 @@ Uploading DataPulse - Visual Studio Code 2025-05-19 12-41-19 main (online-video-
 
 
 
-https://github.com/user-attachments/assets/972af7ac-ec1c-4108-bfc4-3d71ddad7b0f
 
 
 
