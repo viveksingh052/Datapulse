@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/42b79cb4-2bed-4107-8ea7-125184ca0a0d
 # 🚀 DataPulse : Automated DataOps Platform for Real-Time Data Monitoring
 
 
@@ -176,4 +178,18 @@ Email: vivekvs2927@gmail.com
 GitHub: github.com/viveksingh052
 
 
+Uploading DataPulse - Visual Studio Code 2025-05-19 12-41-19 main (online-video-cutter.com).mp4…
+
+
+
+https://github.com/user-attachments/assets/972af7ac-ec1c-4108-bfc4-3d71ddad7b0f
+
+
+
+
+
+
 ## ✨ Thank you for checking out DataPulse! Feel free to star ⭐ the repo if you find it helpful.
+
+
+
