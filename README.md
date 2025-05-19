@@ -67,12 +67,10 @@ datapulse/
 │
 ├── dashboard/                   # Interactive data visualization UI
 │   └── app.py                   # Streamlit or Dash app for visualization
-│
-├── test/                        # Additional or legacy tests
-│   └── test_fetch.py            # Sample test script
-│
+│                                  
 ├── tests/                       # Primary unit and integration tests
 │   └── test_clean.py            # Test for data cleaning functions
+|   └── test_fetch.py            # Sample test script
 │
 ├── .github/                     # GitHub-specific configuration
 │   └── workflows/
